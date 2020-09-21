@@ -85,7 +85,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
  Stylesheet for settings ends here  -->
+<!-- Stylesheet for login page starts here -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles2.css') }}"> 
 
+<!-- Stylesheet for login page ends here -->
 
 </head>
 <body>
@@ -94,14 +97,7 @@
 
         <!--------header logo-------->
         <div class="header-logo"> <i class="fas fa-pen-fancy"></i> BLOGGERS ADDA
-            <!--------------search bar--------->
-            <div class ="search-box">
-                <input type="text" placeholder="Search">
-                    <a class="search-btn" href=""><i class="fas fa-search fa-xs"></i></a>
-             </div>
         </div>
-        <span id="menu_btn" ><i class="fas fa-bars menu-btn id= "></i></span>
-
         <!---------menu,header-list------------->
             <div class="header-list" id="header_list">
                 <ul>
@@ -125,11 +121,11 @@
 
 {% block body %} {% endblock %}
 
-  <!------footer--->
+  <!-- ----footer-
   <div class="footer">
         <div class="footer-section about ">
             <div class="footer-logo"> <i class="fas fa-pen-fancy"></i>BLOGGERS ADDA </div>
-            <!--------ABOUT SECTION------->
+            ------ABOUT SECTION------
             <br>
             <br>
            <h3>CONTACT DETAILS</h3>
@@ -151,7 +147,7 @@
                     </ul>
                 </div>
         </div>
-        <!--        Quicklinks   -->
+        --        Quicklinks   
         <div class="footer-section links">
            <br>
             <br>
@@ -190,7 +186,7 @@
 
         <div class ="footer-bottom">
         &copy; BLOGGERS ADDA | Designed by BWLU TEAM
-        </div>
+        </div> -->
 
 </body>
 </html>
